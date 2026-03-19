@@ -526,7 +526,7 @@ export default function HeePortfolio() {
 
       {/* Nav */}
       <nav className={scrolled ? "scrolled" : ""}>
-        <a href="#" className="logo">H<em>T</em></a>
+        <a href="#about" className="logo">H<em>T</em></a>
         <ul className="nav-links">
           {["about","experience","skills","projects","contact"].map(s => (
             <li key={s}><a href={`#${s}`}>{s}</a></li>
@@ -543,7 +543,7 @@ export default function HeePortfolio() {
             <span className="line"><span>Heena</span></span>
             <span className="line"><span><em>Tibadiya.</em></span></span>
           </h1>
-          <p className="hero-role">// Software Engineer · 7+ years</p>
+          <p className="hero-role"><span>&#47;&#47; Software Engineer · 7+ years</span></p>
           <p className="hero-desc">
             I build scalable, high-performance web applications with a focus on clean architecture and exceptional user experience. Experienced in leading teams and shipping products that last.
           </p>
