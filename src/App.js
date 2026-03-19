@@ -538,7 +538,7 @@ export default function HeePortfolio() {
       <section className="hero" id="about">
         <div className="hero-bg-text">HT</div>
         <div className="hero-left">
-          <div className="hero-tag">Open to new opportunities · NYC</div>
+          <div className="hero-tag">Open to new opportunities · NYC and NJ</div>
           <h1>
             <span className="line"><span>Heena</span></span>
             <span className="line"><span><em>Tibadiya.</em></span></span>
