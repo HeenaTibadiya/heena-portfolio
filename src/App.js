@@ -551,6 +551,9 @@ export default function HeePortfolio() {
             <button className="btn-primary" onClick={() => document.getElementById("experience").scrollIntoView({ behavior: "smooth" })}>
               View Experience
             </button>
+            <a className="btn-secondary" href="/Heena_Tibadiya_Resume.pdf" download>
+              Download Resume
+            </a>
             <button className="btn-secondary" onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>
               Get in touch
             </button>
@@ -691,9 +694,17 @@ export default function HeePortfolio() {
               { icon: "✉", label: "tibadiyaheena1994@gmail.com", href: "mailto:tibadiyaheena1994@gmail.com" },
               { icon: "📞", label: "(848) 467-6093", href: "tel:8484676093" },
               { icon: "in", label: "linkedin.com/in/heena-tibadiya", href: "https://linkedin.com/in/heena-tibadiya" },
+              { icon: "📄", label: "Download Resume", href: "/Heena_Tibadiya_Resume.pdf", download: true },
               { icon: "📍", label: "New York, NY", href: "#" },
             ].map(l => (
-              <a key={l.label} href={l.href} className="contact-link" target={l.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer">
+              <a
+                key={l.label}
+                href={l.href}
+                className="contact-link"
+                target={l.href.startsWith("http") ? "_blank" : undefined}
+                rel={l.href.startsWith("http") ? "noreferrer" : undefined}
+                download={l.download}
+              >
                 <span className="contact-link-icon">{l.icon}</span>
                 {l.label}
               </a>
