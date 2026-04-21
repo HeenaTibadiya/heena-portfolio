@@ -300,7 +300,14 @@ const css = `
     h1 { font-size: clamp(2rem, 9vw, 2.6rem); }
     .hero-role { font-size: 1.02rem; }
     .hero-summary { font-size: 0.95rem; line-height: 1.7; }
-    .hero-avatar { width: 118px; height: 118px; font-size: 2.55rem; }
+    .hero-avatar {
+      width: 118px;
+      height: 118px;
+      font-size: 2.55rem;
+      order: -1;
+      justify-self: center;
+      margin-bottom: 0.4rem;
+    }
     .hero-cta {
       flex-direction: column;
       align-items: stretch;
