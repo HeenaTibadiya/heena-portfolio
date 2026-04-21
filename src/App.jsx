@@ -398,7 +398,7 @@ const markup = `
       <div>
         <span class="hero-eyebrow">Available for opportunities</span>
         <h1>Heena<br /><span>Tibadiya</span></h1>
-        <p class="hero-role">Software Developer &amp; Engineering Lead</p>
+        <p class="hero-role">Software Engineer</p>
         <p class="hero-summary">
           7+ years building scalable, high-performance web applications across healthcare,
           finance, and CRM domains. Deep expertise in React, Angular, Node.js, and Python -
