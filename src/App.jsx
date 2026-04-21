@@ -400,9 +400,11 @@ const markup = `
         <h1>Heena<br /><span>Tibadiya</span></h1>
         <p class="hero-role">Software Engineer</p>
         <p class="hero-summary">
-          7+ years building scalable, high-performance web applications across healthcare,
-          finance, and CRM domains. Deep expertise in React, Angular, Node.js, and Python -
-          with hands-on experience in AI/LLM agentic systems.
+          Software Engineer with more than 7 years of hands-on experience creating and improving scalable web and software applications.
+          Skilled in technologies such as Angular, React, and Node.js, with a strong focus on building secure, high-performance systems. 
+          Experienced in designing and implementing microservices architectures to deliver reliable and maintainable solutions. Known for
+          strong problem-solving abilities, leading development efforts, and contributing to innovative project outcomes. Continuously
+          adapts to new tools and challenges while delivering practical, user-focused results.
         </p>
         <div class="hero-cta">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
