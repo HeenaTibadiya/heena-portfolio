@@ -45,6 +45,44 @@ const css = `
   }
   .nav-links a:hover { color: var(--teal); }
 
+  .mobile-nav {
+    display: none;
+    position: relative;
+  }
+  .mobile-nav summary {
+    list-style: none;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    color: var(--text);
+    background: rgba(255,255,255,0.02);
+    border-radius: 10px;
+    padding: 0.45rem 0.65rem;
+    font-size: 0.9rem;
+    line-height: 1;
+  }
+  .mobile-nav summary::-webkit-details-marker { display: none; }
+  .mobile-nav-panel {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    right: 0;
+    min-width: 190px;
+    background: #111f39;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.4rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    z-index: 120;
+  }
+  .mobile-nav-panel a {
+    display: block;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.88rem;
+    padding: 0.55rem 0.65rem;
+    border-radius: 8px;
+  }
+  .mobile-nav-panel a:hover { background: rgba(14,165,233,0.16); color: var(--teal); }
+
   section { padding: 5rem 0; }
   .container { max-width: 1080px; margin: 0 auto; padding: 0 1.5rem; }
 
@@ -236,11 +274,90 @@ const css = `
     border-top: 1px solid var(--border);
   }
 
-  @media (max-width: 700px) {
-    .hero-inner { grid-template-columns: 1fr; }
-    .hero-avatar { width: 120px; height: 120px; font-size: 2.8rem; order: -1; }
+  @media (max-width: 1024px) {
+    nav { padding: 0 1.25rem; }
+    .nav-links { gap: 1rem; }
+    .container { padding: 0 1.25rem; }
+    .hero-inner { grid-template-columns: 1fr; gap: 1.75rem; }
+    .hero-avatar { width: 150px; height: 150px; font-size: 3.3rem; }
+    .hero-summary { max-width: 100%; }
+    .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .project-card { grid-template-columns: 1fr; }
+    .section-title { margin-bottom: 1.75rem; }
+  }
+
+  @media (max-width: 700px) {
+    nav { height: 56px; padding: 0 1rem; }
     .nav-links { display: none; }
+    .mobile-nav { display: block; }
+    .container { padding: 0 1rem; }
+    section { padding: 3.5rem 0; }
+    #hero {
+      min-height: auto;
+      padding-top: 76px;
+      padding-bottom: 2rem;
+    }
+    h1 { font-size: clamp(2rem, 9vw, 2.6rem); }
+    .hero-role { font-size: 1.02rem; }
+    .hero-summary { font-size: 0.95rem; line-height: 1.7; }
+    .hero-avatar { width: 118px; height: 118px; font-size: 2.55rem; }
+    .hero-cta {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.65rem;
+    }
+    .btn {
+      width: 100%;
+      justify-content: center;
+      min-height: 44px;
+    }
+    .hero-contact {
+      gap: 0.65rem;
+      margin-top: 1.15rem;
+    }
+    .hero-contact a {
+      width: 100%;
+      font-size: 0.82rem;
+      line-height: 1.45;
+    }
+    .skills-grid { grid-template-columns: 1fr; }
+    .skill-card { padding: 1rem; }
+    .tl-item { padding: 1.2rem 1rem 1.2rem 1.15rem; }
+    .tl-header { gap: 0.5rem; }
+    .tl-role { font-size: 0.98rem; }
+    .tl-bullets li { font-size: 0.86rem; }
+    .project-card { padding: 1.15rem 1rem; }
+    .project-title { font-size: 1.06rem; }
+    .project-desc { font-size: 0.88rem; }
+    .project-badge {
+      min-width: 100%;
+      padding: 0.85rem 1rem;
+    }
+    .edu-grid { grid-template-columns: 1fr; }
+    .edu-card { padding: 1rem; }
+    .contact-links {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.65rem;
+    }
+    .contact-chip {
+      width: 100%;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0.7rem 1rem;
+    }
+    footer { padding: 1.1rem; }
+  }
+
+  @media (max-width: 400px) {
+    .hero-eyebrow {
+      font-size: 0.75rem;
+      gap: 0.4rem;
+    }
+    .hero-eyebrow::before { width: 20px; }
+    .section-label { font-size: 0.7rem; }
+    .section-title { font-size: 1.45rem; }
+    .tag { font-size: 0.74rem; }
   }
 `;
 
@@ -255,6 +372,16 @@ const markup = `
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
+  <details class="mobile-nav">
+    <summary aria-label="Open menu">☰</summary>
+    <div class="mobile-nav-panel">
+      <a href="#skills" onclick="this.closest('details').removeAttribute('open')">Skills</a>
+      <a href="#experience" onclick="this.closest('details').removeAttribute('open')">Experience</a>
+      <a href="#project" onclick="this.closest('details').removeAttribute('open')">Project</a>
+      <a href="#education" onclick="this.closest('details').removeAttribute('open')">Education</a>
+      <a href="#contact" onclick="this.closest('details').removeAttribute('open')">Contact</a>
+    </div>
+  </details>
 </nav>
 
 <!-- HERO -->
