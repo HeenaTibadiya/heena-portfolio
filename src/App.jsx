@@ -129,7 +129,7 @@ const css = `
     font-size: 1.25rem; color: var(--muted); margin-bottom: 1.2rem;
   }
   .hero-summary {
-    color: var(--muted); font-size: 1rem; max-width: 560px;
+    color: var(--muted); font-size: 1rem; max-width: 800px ;
     margin-bottom: 2rem; line-height: 1.75;
   }
   .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
@@ -400,8 +400,7 @@ const markup = `
         <h1>Heena<br /><span>Tibadiya</span></h1>
         <p class="hero-role">Software Engineer</p>
         <p class="hero-summary">
-          Software Engineer with more than 7 years of hands-on experience creating and improving scalable web and software applications.
-          Skilled in technologies such as Angular, React, and Node.js, with a strong focus on building secure, high-performance systems. 
+          Software Engineer with more than 7 years of hands-on experience creating and improving scalable web and software applications. Skilled in technologies such as Angular, React, and Node.js, with a strong focus on building secure, high-performance systems. 
           Experienced in designing and implementing microservices architectures to deliver reliable and maintainable solutions. Known for
           strong problem-solving abilities, leading development efforts, and contributing to innovative project outcomes. Continuously
           adapts to new tools and challenges while delivering practical, user-focused results.
