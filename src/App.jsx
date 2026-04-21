@@ -290,7 +290,7 @@ const markup = `
           </a>
           <a href="#">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            New York, NY
+            New York and New Jersey
           </a>
         </div>
       </div>
@@ -491,7 +491,7 @@ const markup = `
     <p class="section-label">Let's connect</p>
     <h2 class="section-title">Get in <span>Touch</span></h2>
     <p style="color:var(--muted);max-width:480px;margin:0 auto;">
-      Open to full-stack engineering roles in New York / hybrid. Feel free to reach out via email or LinkedIn.
+      Open to full-stack engineering roles in New York and New Jersey. Feel free to reach out via email or LinkedIn.
     </p>
     <div class="contact-links">
       <a class="contact-chip" href="mailto:tibadiyaheena1994@gmail.com">
@@ -515,7 +515,7 @@ const markup = `
 </section>
 
 <footer>
-  <p>© 2026 Heena Tibadiya &nbsp;·&nbsp; Built with HTML, CSS &amp; care</p>
+ <p>© ${new Date().getFullYear()} Heena Tibadiya. All rights reserved.</p>
 </footer>
 `;
 
