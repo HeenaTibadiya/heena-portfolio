@@ -428,7 +428,6 @@ const markup = `
           </a>
         </div>
       </div>
-      <div class="hero-avatar">HT</div>
     </div>
   </div>
 </section>
