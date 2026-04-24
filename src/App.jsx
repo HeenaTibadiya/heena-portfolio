@@ -400,10 +400,7 @@ const markup = `
         <h1>Heena<br /><span>Tibadiya</span></h1>
         <p class="hero-role">Software Engineer</p>
         <p class="hero-summary">
-          Software Engineer with more than 7 years of hands-on experience creating and improving scalable web and software applications. Skilled in technologies such as Angular, React, and Node.js, with a strong focus on building secure, high-performance systems. 
-          Experienced in designing and implementing microservices architectures to deliver reliable and maintainable solutions. Known for
-          strong problem-solving abilities, leading development efforts, and contributing to innovative project outcomes. Continuously
-          adapts to new tools and challenges while delivering practical, user-focused results.
+          Full-Stack Software Engineer with experience building scalable web applications using Angular, React, Node.js, and Python (FastAPI). Skilled in microservices architecture, secure system design, and delivering high-performance, user-focused solutions. Continuously adapts to new tools and challenges while delivering practical, user-focused results. 
         </p>
         <div class="hero-cta">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
@@ -522,7 +519,7 @@ const markup = `
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-header">
-          <span class="tl-role">Lead Software Developer</span>
+          <span class="tl-role">Senior Software Developer</span>
           <span class="tl-period">Jun 2021 - Aug 2023</span>
         </div>
         <div class="tl-company">Inventyv Software Services Pvt. Ltd. - Gujarat, India</div>
@@ -537,7 +534,7 @@ const markup = `
 
       <div class="tl-item">
         <div class="tl-header">
-          <span class="tl-role">Senior Software Developer</span>
+          <span class="tl-role">Software Developer</span>
           <span class="tl-period">May 2018 - Jun 2021</span>
         </div>
         <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Gujarat, India</div>
@@ -552,7 +549,7 @@ const markup = `
 
       <div class="tl-item">
         <div class="tl-header">
-          <span class="tl-role">Software Developer</span>
+          <span class="tl-role">Junior Software Developer</span>
           <span class="tl-period">May 2016 - May 2018</span>
         </div>
         <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Gujarat, India</div>
