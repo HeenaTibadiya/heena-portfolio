@@ -567,7 +567,6 @@ const markup = `
 <!-- FEATURED PROJECT -->
 <section id="project">
   <div class="container">
-    <p class="section-label">Featured work</p>
     <h2 class="section-title">AI <span>Project</span></h2>
     <div class="project-card">
       <div>
@@ -605,7 +604,7 @@ const markup = `
       <div class="edu-card">
         <div class="edu-degree">MS in Computer Science</div>
         <div class="edu-school">City University of New York (CUNY)</div>
-        <div class="edu-date">New York, NY &nbsp;·&nbsp; Expected May 2026</div>
+        <div class="edu-date">New York, NY &nbsp;·&nbsp; May 2026</div>
       </div>
       <div class="edu-card">
         <div class="edu-degree">BSc &amp; MSc in Computer Applications &amp; IT</div>
