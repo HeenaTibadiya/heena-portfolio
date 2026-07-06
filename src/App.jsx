@@ -400,8 +400,7 @@ const markup = `
         <h1>Heena<br /><span>Tibadiya</span></h1>
         <p class="hero-role">Software Engineer</p>
         <p class="hero-summary">
-          Full-Stack Software Engineer with experience building scalable web applications using Angular, React, Node.js, and Python (FastAPI). Skilled in microservices architecture, secure system design, and delivering high-performance, user-focused solutions. Continuously adapts to new tools and challenges while delivering practical, user-focused results. 
-        </p>
+          Software Engineer with 7+ years of deep domain expertise in US Tax and Healthcare systems. Proven ability to design dynamic, scalable user interfaces using Angular and React, powered by backend services engineered in Spring Boot, Node.js and Kafka. Strong leadership experience in driving engineering excellence, enforcing rigorous code quality, and delivering enterprise-grade software.        </p>
         <div class="hero-cta">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
           <a href="#experience" class="btn btn-outline">View experience</a>
