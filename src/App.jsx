@@ -542,44 +542,36 @@ const markup = `
       <div class="tl-item">
         <div class="tl-header">
           <span class="tl-role">Senior Software Developer</span>
-          <span class="tl-period">Jun 2021 - Aug 2023</span>
+          <span class="tl-period">Jun 2021 - Aug 2024</span>
         </div>
-        <div class="tl-company">Inventyv Software Services Pvt. Ltd. - Gujarat, India</div>
+        <div class="tl-company">Inventyv Software Services Pvt. Ltd. - Client: Advanced Tax Solutions LLC</div>
         <ul class="tl-bullets">
-          <li>Led and mentored a team of 5+ engineers across the full development lifecycle - from architecture planning through production delivery - ensuring on-time, high-quality releases.</li>
-          <li>Designed and implemented scalable frontend architectures and workflows to support evolving product requirements and growing engineering teams.</li>
-          <li>Established and enforced coding standards, security protocols, and code review practices, measurably raising quality and reducing defect rates.</li>
-          <li>Evaluated and integrated emerging technologies into project roadmaps, fostering a culture of continuous learning and innovation.</li>
-          <li>Partnered with product and design teams to translate complex business requirements into intuitive UI/UX solutions using Figma and modern frontend frameworks.</li>
+          <li>Led end-to-end development of a high-revenue Bank-as-a-Service (BaaS) module, enabling EROs to offer direct financial services to taxpayers for refund disbursements.</li>
+          <li>Engineered an ERO enrollment pipeline using Angular, Node.js, and Couchbase, integrated with a Spring Boot scheduled job system for secure document transmission to banking partners.</li>
+          <li>Spearheaded a complete rewrite of the enterprise e-file module, engineering a dynamic workflow for users to selectively transmit specific IRS and state tax forms.</li>
+          <li>Integrated IBM Watson AI into the Solution Center to deliver accurate tax article recommendations, reducing customer tickets by 70%.</li>
+          <li>Implemented MFA via Google Authenticator to enforce identity verification and protect sensitive financial data.</li>
+          <li>Directed a cross-functional team of 5+ engineers through the full SDLC, enforcing agile practices and code review protocols for on-time, high-quality releases.</li>
+          <li>Built scalable full-stack architectures pairing Spring Boot APIs with adaptable frontend workflows to support evolving product requirements.</li>
+          <li>Partnered with product and design teams to translate business requirements into polished UI/UX solutions using Figma and modern frontend frameworks.</li>
         </ul>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
           <span class="tl-role">Software Developer</span>
-          <span class="tl-period">May 2018 - Jun 2021</span>
+          <span class="tl-period">May 2016 - Jun 2021</span>
         </div>
-        <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Gujarat, India</div>
+        <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Client: Advanced Tax Solutions LLC</div>
         <ul class="tl-bullets">
-          <li>Architected and delivered full-stack features across US tax, healthcare, and CRM platforms using Angular, React, Node.js, Python (FastAPI), TypeScript, Couchbase, SQL, GCP, and AWS.</li>
-          <li>Achieved 40% reduction in load times and 35% improvement in rendering speed via AOT Compilation, Cache-First Serving, and lazy loading.</li>
-          <li>Decomposed large monolithic frontends into micro-frontends using Web Components and Webpack 5 Module Federation, enabling parallel team development.</li>
-          <li>Integrated a Billing Tree payment module enabling reliable end-to-end payment processing for thousands of users.</li>
-          <li>Collaborated with DevOps to deploy and monitor applications on GCP and AWS, leveraging Kibana for real-time observability.</li>
-        </ul>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-header">
-          <span class="tl-role">Junior Software Developer</span>
-          <span class="tl-period">May 2016 - May 2018</span>
-        </div>
-        <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Gujarat, India</div>
-        <ul class="tl-bullets">
-          <li>Developed responsive, accessible web interfaces using modern frontend frameworks within a microservice architecture.</li>
-          <li>Led migration of legacy AngularJS to latest Angular with TypeScript, reducing codebase issues by 40% and improving performance by 30%.</li>
-          <li>Built and maintained RESTful APIs using Node.js and Python (FastAPI) in collaboration with cross-functional backend teams.</li>
-          <li>Participated across the full SDLC - requirements gathering, UI design, development, QA, and deployment.</li>
+          <li>Engineered features for US tax and CRM platforms using Node.js, Spring Boot, PostgreSQL, Couchbase, Angular, and React.</li>
+          <li>Decomposed monolithic architectures into scalable micro-frontends using Webpack 5 Module Federation, accelerating parallel team development.</li>
+          <li>Optimized performance via Cache-First serving, AOT compilation, and lazy loading, reducing load times by 40% and boosting rendering speed by 35%.</li>
+          <li>Integrated Billing Tree payment gateway, reducing manual payment processing by 40% through an automated renewal workflow.</li>
+          <li>Built a custom Electron desktop printing tool with jCanvas and Spring Boot to automate IRS and state tax form generation.</li>
+          <li>Migrated legacy AngularJS to modern Angular (TypeScript), cutting bugs by 40% and boosting performance by 30%.</li>
+          <li>Developed reporting RESTful APIs using Node.js and TypeScript, collaborating across the full SDLC from requirements to deployment.</li>
+          <li>Worked with DevOps to manage GCP deployments, using Kibana for real-time log monitoring and troubleshooting.</li>
         </ul>
       </div>
     </div>
