@@ -456,6 +456,7 @@ const markup = `
           <span class="tag">Express.js</span>
           <span class="tag">Spring Boot</span>
           <span class="tag">Spring Security</span>
+          <span class="tag">Spring Cloud</span>
           <span class="tag">FastAPI</span>
           <span class="tag">Socket.io</span>
           <span class="tag">Tailwind</span>
