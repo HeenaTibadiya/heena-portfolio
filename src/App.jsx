@@ -566,6 +566,7 @@ const markup = `
         <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
           <li>Engineered features for US tax and CRM platforms using Node.js, Spring Boot, PostgreSQL, Couchbase, Angular, and React.</li>
+          <li>Built a secure taxpayer client portal (React, Node.js) enabling document and personal information uploads to EROs for tax return filing, streamlining intake via RESTful APIs.</li>
           <li>Decomposed monolithic architectures into scalable micro-frontends using Webpack 5 Module Federation, accelerating parallel team development.</li>
           <li>Optimized performance via Cache-First serving, AOT compilation, and lazy loading, reducing load times by 40% and boosting rendering speed by 35%.</li>
           <li>Integrated Billing Tree payment gateway, reducing manual payment processing by 40% through an automated renewal workflow.</li>
