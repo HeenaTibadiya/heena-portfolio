@@ -228,6 +228,7 @@ const css = `
   }
 
   #project { background: var(--dark); }
+  .project-list { display: flex; flex-direction: column; gap: 1.5rem; }
   .project-card {
     background: var(--navy); border: 1px solid var(--border);
     border-radius: var(--radius); padding: 2rem 2.2rem;
@@ -375,7 +376,7 @@ const markup = `
   <ul class="nav-links">
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
-    <li><a href="#project">Project</a></li>
+    <li><a href="#project">Projects</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -384,7 +385,7 @@ const markup = `
     <div class="mobile-nav-panel">
       <a href="#skills" onclick="this.closest('details').removeAttribute('open')">Skills</a>
       <a href="#experience" onclick="this.closest('details').removeAttribute('open')">Experience</a>
-      <a href="#project" onclick="this.closest('details').removeAttribute('open')">Project</a>
+      <a href="#project" onclick="this.closest('details').removeAttribute('open')">Projects</a>
       <a href="#education" onclick="this.closest('details').removeAttribute('open')">Education</a>
       <a href="#contact" onclick="this.closest('details').removeAttribute('open')">Contact</a>
     </div>
@@ -453,9 +454,11 @@ const markup = `
           <span class="tag">Angular</span>
           <span class="tag">Node.js</span>
           <span class="tag">Express.js</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">Spring Security</span>
           <span class="tag">FastAPI</span>
           <span class="tag">Socket.io</span>
-          <span class="tag">Bootstrap</span>
+          <span class="tag">Tailwind</span>
           <span class="tag">Material UI</span>
           <span class="tag">LangChain.js</span>
         </div>
@@ -477,7 +480,7 @@ const markup = `
         <div class="skill-tags">
           <span class="tag">MongoDB</span>
           <span class="tag">Couchbase</span>
-          <span class="tag">SQL</span>
+          <span class="tag">PostgreSQL</span>
           <span class="tag">Elasticsearch</span>
           <span class="tag">Kafka</span>
           <span class="tag">IndexedDB</span>
@@ -504,6 +507,26 @@ const markup = `
           <span class="tag green">Agentic Workflows</span>
           <span class="tag green">LangChain.js</span>
           <span class="tag green">Llama 3.2</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-title">Tools</div>
+        <div class="skill-tags">
+          <span class="tag purple">Git</span>
+          <span class="tag purple">Figma</span>
+          <span class="tag purple">Postman</span>
+          <span class="tag purple">VS Code</span>
+          <span class="tag purple">NPM</span>
+          <span class="tag purple">IntelliJ IDEA</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-title">Soft Skills</div>
+        <div class="skill-tags">
+          <span class="tag">Engineering Leadership</span>
+          <span class="tag">Agile/Scrum</span>
+          <span class="tag">Mentorship</span>
+          <span class="tag">Cross-functional Collaboration</span>
         </div>
       </div>
     </div>
@@ -563,32 +586,78 @@ const markup = `
   </div>
 </section>
 
-<!-- FEATURED PROJECT -->
+<!-- ACADEMIC PROJECTS -->
 <section id="project">
   <div class="container">
-    <h2 class="section-title">AI <span>Project</span></h2>
-    <div class="project-card">
-      <div>
-        <div class="project-title">Agentic AI Resume Screening &amp; Feedback System</div>
-        <div class="project-stack">
-          <span class="tag">React.js</span>
-          <span class="tag">Node.js</span>
-          <span class="tag green">LangChain.js</span>
-          <span class="tag green">Llama 3.2</span>
-          <span class="tag purple">Agentic Pipeline</span>
+    <p class="section-label">Academic work</p>
+    <h2 class="section-title">Academic <span>Projects</span></h2>
+    <div class="project-list">
+      <div class="project-card">
+        <div>
+          <div class="project-title">Agentic AI Resume Screening &amp; Feedback System</div>
+          <div class="project-stack">
+            <span class="tag">React.js</span>
+            <span class="tag">Node.js</span>
+            <span class="tag green">LangChain.js</span>
+            <span class="tag green">Llama 3.2</span>
+            <span class="tag purple">Agentic Pipeline</span>
+          </div>
+          <p class="project-desc">
+            Designed and built a full-stack AI web application that evaluates resumes against job
+            descriptions using a three-agent pipeline - <strong style="color:#e2e8f0">Parser -&gt; Matching -&gt; Feedback</strong>.
+            The system generates a transparent match score with actionable improvement suggestions,
+            showcasing applied expertise in LLMs, agentic workflows, and modern full-stack development.
+            Features real-time SSE agent status updates, PDF &amp; Word export, and a responsive two-column UI.
+          </p>
         </div>
-        <p class="project-desc">
-          Designed and built a full-stack AI web application that evaluates resumes against job
-          descriptions using a three-agent pipeline - <strong style="color:#e2e8f0">Parser -&gt; Matching -&gt; Feedback</strong>.
-          The system generates a transparent match score with actionable improvement suggestions,
-          showcasing applied expertise in LLMs, agentic workflows, and modern full-stack development.
-          Features real-time SSE agent status updates, PDF &amp; Word export, and a responsive two-column UI.
-        </p>
+        <div class="project-badge">
+          <div class="project-badge-label">Term</div>
+          <div class="project-badge-value" style="font-size:1.3rem">Spring '26</div>
+          <div style="font-size:0.7rem;color:var(--muted);margin-top:0.4rem">Parser - Matching - Feedback</div>
+        </div>
       </div>
-      <div class="project-badge">
-        <div class="project-badge-label">Pipeline Agents</div>
-        <div class="project-badge-value">3</div>
-        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.4rem">Parser - Matching - Feedback</div>
+
+      <div class="project-card">
+        <div>
+          <div class="project-title">Personal Vault &amp; Finance Management System</div>
+          <div class="project-stack">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Angular</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <p class="project-desc">
+            A full-stack personal productivity app built with Angular and Spring Boot that helps users
+            securely store passwords and manage everyday expenses in one place - combining a credential
+            vault with budget tracking to simplify daily financial and digital life. Implemented with
+            JWT-based authentication, RESTful APIs, PostgreSQL, and a responsive Angular UI.
+          </p>
+        </div>
+        <div class="project-badge">
+          <div class="project-badge-label">Term</div>
+          <div class="project-badge-value" style="font-size:1.3rem">Fall '25</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div>
+          <div class="project-title">Secure Chat Application</div>
+          <div class="project-stack">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag purple">WebSocket</span>
+            <span class="tag purple">ECDH</span>
+            <span class="tag purple">REST APIs</span>
+          </div>
+          <p class="project-desc">
+            Built a Spring Boot-based secure chat application with WebSocket integration, implementing
+            ECDH key exchange for real-time encrypted messaging. Built backend services with Spring
+            Boot to enable real-time message encryption and decryption over WebSocket.
+          </p>
+        </div>
+        <div class="project-badge">
+          <div class="project-badge-label">Term</div>
+          <div class="project-badge-value" style="font-size:1.3rem">Spring '25</div>
+        </div>
       </div>
     </div>
   </div>
