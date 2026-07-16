@@ -545,7 +545,7 @@ const markup = `
           <span class="tl-role">Senior Software Developer</span>
           <span class="tl-period">Jun 2021 - Aug 2024</span>
         </div>
-        <div class="tl-company">Inventyv Software Services Pvt. Ltd. - Client: Advanced Tax Solutions LLC</div>
+        <div class="tl-company">Inventyv Software Services Pvt. Ltd. - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
           <li>Led end-to-end development of a high-revenue Bank-as-a-Service (BaaS) module, enabling EROs to offer direct financial services to taxpayers for refund disbursements.</li>
           <li>Engineered an ERO enrollment pipeline using Angular, Node.js, and Couchbase, integrated with a Spring Boot scheduled job system for secure document transmission to banking partners.</li>
@@ -563,7 +563,7 @@ const markup = `
           <span class="tl-role">Software Developer</span>
           <span class="tl-period">May 2016 - Jun 2021</span>
         </div>
-        <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Client: Advanced Tax Solutions LLC</div>
+        <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
           <li>Engineered features for US tax and CRM platforms using Node.js, Spring Boot, PostgreSQL, Couchbase, Angular, and React.</li>
           <li>Decomposed monolithic architectures into scalable micro-frontends using Webpack 5 Module Federation, accelerating parallel team development.</li>
