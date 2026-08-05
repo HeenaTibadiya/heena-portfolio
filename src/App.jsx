@@ -439,10 +439,10 @@ const markup = `
       <div class="skill-card">
         <div class="skill-card-title">Languages</div>
         <div class="skill-tags">
+          <span class="tag">Java</span>
           <span class="tag">JavaScript (ES6+)</span>
           <span class="tag">TypeScript</span>
           <span class="tag">Python</span>
-          <span class="tag">Java</span>
           <span class="tag">HTML5</span>
           <span class="tag">CSS3</span>
         </div>
@@ -450,13 +450,16 @@ const markup = `
       <div class="skill-card">
         <div class="skill-card-title">Frameworks &amp; Libraries</div>
         <div class="skill-tags">
-          <span class="tag">React</span>
-          <span class="tag">Angular</span>
-          <span class="tag">Node.js</span>
-          <span class="tag">Express.js</span>
+          <span class="tag">Spring</span>
           <span class="tag">Spring Boot</span>
+          <span class="tag">Spring MVC</span>
           <span class="tag">Spring Security</span>
           <span class="tag">Spring Cloud</span>
+          <span class="tag">Hibernate</span>
+          <span class="tag">Angular</span>
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span>
           <span class="tag">FastAPI</span>
           <span class="tag">Socket.io</span>
           <span class="tag">Tailwind</span>
@@ -469,9 +472,9 @@ const markup = `
         <div class="skill-tags">
           <span class="tag purple">Micro-frontends</span>
           <span class="tag purple">Microservices</span>
+          <span class="tag purple">RESTful APIs</span>
           <span class="tag purple">Web Components</span>
           <span class="tag purple">Module Federation</span>
-          <span class="tag purple">RESTful APIs</span>
           <span class="tag purple">OAuth 2.0</span>
           <span class="tag purple">Responsive Design</span>
         </div>
@@ -479,9 +482,9 @@ const markup = `
       <div class="skill-card">
         <div class="skill-card-title">Databases &amp; Messaging</div>
         <div class="skill-tags">
+          <span class="tag">PostgreSQL</span>
           <span class="tag">MongoDB</span>
           <span class="tag">Couchbase</span>
-          <span class="tag">PostgreSQL</span>
           <span class="tag">Elasticsearch</span>
           <span class="tag">Kafka</span>
           <span class="tag">IndexedDB</span>
@@ -545,14 +548,14 @@ const markup = `
           <span class="tl-role">Senior Software Developer</span>
           <span class="tl-period">Jun 2021 - Aug 2024</span>
         </div>
-        <div class="tl-company">Inventyv Software Services Pvt. Ltd. - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
+        <div class="tl-company">Inventyv Software Services - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
           <li>Led end-to-end development of a high-revenue Bank-as-a-Service (BaaS) module, enabling EROs to offer direct financial services to taxpayers for refund disbursements.</li>
           <li>Engineered an ERO enrollment pipeline using Angular, Node.js, and Couchbase, integrated with a Spring Boot scheduled job system for secure document transmission to banking partners.</li>
           <li>Spearheaded a complete rewrite of the enterprise e-file module, engineering a dynamic workflow for users to selectively transmit specific IRS and state tax forms.</li>
           <li>Integrated IBM Watson AI into the Solution Center to deliver accurate tax article recommendations, reducing customer tickets by 70%.</li>
           <li>Implemented MFA via Google Authenticator to enforce identity verification and protect sensitive financial data.</li>
-          <li>Directed a cross-functional team of 5+ engineers through the full SDLC, enforcing agile practices and code review protocols for on-time, high-quality releases.</li>
+          <li>Directed a cross-functional team of 8+ engineers through the full SDLC, enforcing agile practices and code review protocols for on-time, high-quality releases.</li>
           <li>Built scalable full-stack architectures pairing Spring Boot APIs with adaptable frontend workflows to support evolving product requirements.</li>
           <li>Partnered with product and design teams to translate business requirements into polished UI/UX solutions using Figma and modern frontend frameworks.</li>
         </ul>
@@ -563,7 +566,7 @@ const markup = `
           <span class="tl-role">Software Developer</span>
           <span class="tl-period">May 2016 - Jun 2021</span>
         </div>
-        <div class="tl-company">I-Link Infosoft Pvt. Ltd. - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
+        <div class="tl-company">I-Link Infosoft - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
           <li>Engineered features for US tax and CRM platforms using Node.js, Spring Boot, PostgreSQL, Couchbase, Angular, and React.</li>
           <li>Built a secure taxpayer client portal (React, Node.js) enabling document and personal information uploads to EROs for tax return filing, streamlining intake via RESTful APIs.</li>
