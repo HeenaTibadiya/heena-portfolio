@@ -545,38 +545,52 @@ const markup = `
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-header">
-          <span class="tl-role">Senior Software Developer</span>
+          <span class="tl-role">Lead Software Developer</span>
           <span class="tl-period">Jun 2021 - Aug 2024</span>
         </div>
         <div class="tl-company">Inventyv Software Services - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
-          <li>Led end-to-end development of a high-revenue Bank-as-a-Service (BaaS) module, enabling EROs to offer direct financial services to taxpayers for refund disbursements.</li>
-          <li>Engineered an ERO enrollment pipeline using Angular, Node.js, and Couchbase, integrated with a Spring Boot scheduled job system for secure document transmission to banking partners.</li>
-          <li>Spearheaded a complete rewrite of the enterprise e-file module, engineering a dynamic workflow for users to selectively transmit specific IRS and state tax forms.</li>
+          <li>Led a cross-functional team of 6+ engineers throughout the SDLC, driving Agile practices, code reviews, technical collaboration, and quality-focused release processes to deliver reliable software.</li>
+          <li>Led the end-to-end development of a high-revenue Bank-as-a-Service (BaaS) module, enabling EROs to provide direct financial services to taxpayers for secure tax refund disbursements, from frontend workflows through backend APIs and financial integrations.</li>
+          <li>Engineered an ERO enrollment pipeline using Angular, Node.js, and Couchbase, with Node.js background jobs for automated processing and secure document transmission to banking partners.</li>
+          <li>Implemented an event-driven architecture using Kafka for the banking module, enabling asynchronous communication with third-party financial APIs and processing responses reliably while decoupling services and improving system resilience.</li>
+          <li>Spearheaded the complete rewrite of the enterprise e-file module using Angular and Node.js, engineering a dynamic workflow that enabled users to selectively transmit specific IRS and state tax forms through secure backend APIs.</li>
+          <li>Developed a white-label Service Bureau portal using React and Node.js, enabling businesses to create master accounts, provision and manage child customers, and customize branding with their company name and logo.</li>
+          <li>Provided production support throughout the tax season, troubleshooting and resolving customer-reported issues and support tickets to ensure reliable system operations and minimize disruptions.</li>
           <li>Integrated IBM Watson AI into the Solution Center to deliver accurate tax article recommendations, reducing customer tickets by 70%.</li>
-          <li>Implemented MFA via Google Authenticator to enforce identity verification and protect sensitive financial data.</li>
-          <li>Directed a cross-functional team of 8+ engineers through the full SDLC, enforcing agile practices and code review protocols for on-time, high-quality releases.</li>
-          <li>Built scalable full-stack architectures pairing Spring Boot APIs with adaptable frontend workflows to support evolving product requirements.</li>
-          <li>Partnered with product and design teams to translate business requirements into polished UI/UX solutions using Figma and modern frontend frameworks.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-header">
+          <span class="tl-role">Senior Software Developer</span>
+          <span class="tl-period">Jun 2018 - May 2021</span>
+        </div>
+        <div class="tl-company">Inventyv Software Services - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
+        <ul class="tl-bullets">
+          <li>Engineered a secure taxpayer client portal using React and Node.js, enabling seamless document uploads to EROs; streamlined RESTful API intake workflows and improved frontend performance through Zustand state management, lazy loading, and code splitting.</li>
+          <li>Decomposed monolithic frontend applications into micro-frontends using Webpack 5 Module Federation, enabling parallel development and accelerating independent feature delivery.</li>
+          <li>Migrated an AngularJS application to modern Angular, optimizing performance through cache-first serving, AOT compilation, and lazy loading; reduced load times by 40% and improved rendering performance by 35%.</li>
+          <li>Implemented JWT authentication with access and refresh tokens across the frontend and Node.js backend, handling token validation, expiration, refresh flows, protected routes, and secure API authorization.</li>
+          <li>Integrated the BillingTree payment gateway and automated annual customer renewal workflows, reducing manual payment processing by 40% and streamlining recurring payments.</li>
+          <li>Worked on implementing CDN-based caching for static files used in tax-form printing and calculations, improving asset delivery performance and reducing backend server load.</li>
+          <li>Collaborated with DevOps to manage GCP deployments, leveraging Kibana for real-time log monitoring, production troubleshooting, and proactive issue resolution.</li>
+          <li>Partnered with product and design teams to translate requirements into polished UI/UX using Figma and modern frontend frameworks.</li>
+          <li>Established and enforced coding standards, led peer code reviews, and integrated automated testing to improve code quality, reliability, and development efficiency.</li>
         </ul>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
           <span class="tl-role">Software Developer</span>
-          <span class="tl-period">May 2016 - Jun 2021</span>
+          <span class="tl-period">May 2016 - May 2018</span>
         </div>
         <div class="tl-company">I-Link Infosoft - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
-          <li>Engineered features for US tax and CRM platforms using Node.js, Spring Boot, PostgreSQL, Couchbase, Angular, and React.</li>
-          <li>Built a secure taxpayer client portal (React, Node.js) enabling document and personal information uploads to EROs for tax return filing, streamlining intake via RESTful APIs.</li>
-          <li>Decomposed monolithic architectures into scalable micro-frontends using Webpack 5 Module Federation, accelerating parallel team development.</li>
-          <li>Optimized performance via Cache-First serving, AOT compilation, and lazy loading, reducing load times by 40% and boosting rendering speed by 35%.</li>
-          <li>Integrated Billing Tree payment gateway, reducing manual payment processing by 40% through an automated renewal workflow.</li>
-          <li>Built a custom Electron desktop printing tool with jCanvas and Spring Boot to automate IRS and state tax form generation.</li>
-          <li>Migrated legacy AngularJS to modern Angular (TypeScript), cutting bugs by 40% and boosting performance by 30%.</li>
-          <li>Developed reporting RESTful APIs using Node.js and TypeScript, collaborating across the full SDLC from requirements to deployment.</li>
-          <li>Worked with DevOps to manage GCP deployments, using Kibana for real-time log monitoring and troubleshooting.</li>
+          <li>Designed and developed scalable CRM features using Node.js and React, streamlining customer support workflows and improving the management of customer data.</li>
+          <li>Worked on a custom Electron Desktop Printing Tool using Angular 2, jCanvas, and Spring Boot APIs to dynamically map taxpayer data to SVG-based form elements and automate the generation and printing of IRS and state tax forms.</li>
+          <li>Developed responsive, reusable UI components in Angular, integrating seamlessly with backend microservices to deliver scalable and maintainable applications.</li>
+          <li>Contributed across the full software development lifecycle, from requirements gathering and solution design through development, testing, and production release.</li>
         </ul>
       </div>
     </div>
