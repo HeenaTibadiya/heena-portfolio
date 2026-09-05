@@ -632,12 +632,12 @@ const markup = `
         <div>
           <div class="project-title">Personal Vault &amp; Finance Management System</div>
           <div class="project-stack">
-            <span class="tag">Spring Boot</span>
+            <span class="tag">FastAPI</span>
             <span class="tag">Angular</span>
             <span class="tag">PostgreSQL</span>
           </div>
           <p class="project-desc">
-            A full-stack personal productivity app built with Angular and Spring Boot that helps users
+            A full-stack personal productivity app built with Angular and FastAPI that helps users
             securely store passwords and manage everyday expenses in one place - combining a credential
             vault with budget tracking to simplify daily financial and digital life. Implemented with
             JWT-based authentication, RESTful APIs, PostgreSQL, and a responsive Angular UI.
