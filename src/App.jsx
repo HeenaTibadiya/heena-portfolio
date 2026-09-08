@@ -401,7 +401,8 @@ const markup = `
         <h1>Heena<br /><span>Tibadiya</span></h1>
         <p class="hero-role">Software Engineer</p>
         <p class="hero-summary">
-          Software Engineer with 7+ years of deep domain expertise in US Tax and Healthcare systems. Proven ability to design dynamic, scalable user interfaces using Angular and React, powered by backend services engineered in Spring Boot, Node.js and Kafka. Strong leadership experience in driving engineering excellence, enforcing rigorous code quality, and delivering enterprise-grade software.        </p>
+          Full Stack Engineer with 8+ years of experience specializing in US Tax and Healthcare systems, with strong expertise in building scalable, secure, and enterprise-grade applications. Proficient in Angular, React, Node.js, Java Spring Ecosystem, and Kafka, with a proven track record of modernizing legacy applications, developing high-performance user interfaces, and building resilient backend services. Experienced in micro-frontends, event-driven architecture, API development, performance optimization, and cloud deployments. Strong technical leadership in establishing engineering best practices, driving code quality, and delivering reliable solutions across the full software development lifecycle.
+        </p>
         <div class="hero-cta">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
           <a href="#experience" class="btn btn-outline">View experience</a>
@@ -514,6 +515,15 @@ const markup = `
         </div>
       </div>
       <div class="skill-card">
+        <div class="skill-card-title">Testing Libraries</div>
+        <div class="skill-tags">
+          <span class="tag purple">Playwright</span>
+          <span class="tag purple">Vitest</span>
+          <span class="tag purple">Jest</span>
+          <span class="tag purple">JUnit</span>
+        </div>
+      </div>
+      <div class="skill-card">
         <div class="skill-card-title">Tools</div>
         <div class="skill-tags">
           <span class="tag purple">Git</span>
@@ -569,6 +579,7 @@ const markup = `
         <div class="tl-company">Inventyv Software Services - (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
         <ul class="tl-bullets">
           <li>Engineered a secure taxpayer client portal using React and Node.js, enabling seamless document uploads to EROs; streamlined RESTful API intake workflows and improved frontend performance through Zustand state management, lazy loading, and code splitting.</li>
+          <li>Developed healthcare application to capture and record physical machine readings, delivering personalized data views for members; implemented i18n support for multi-language accessibility.</li>
           <li>Decomposed monolithic frontend applications into micro-frontends using Webpack 5 Module Federation, enabling parallel development and accelerating independent feature delivery.</li>
           <li>Migrated an AngularJS application to modern Angular, optimizing performance through cache-first serving, AOT compilation, and lazy loading; reduced load times by 40% and improved rendering performance by 35%.</li>
           <li>Implemented JWT authentication with access and refresh tokens across the frontend and Node.js backend, handling token validation, expiration, refresh flows, protected routes, and secure API authorization.</li>
@@ -576,7 +587,7 @@ const markup = `
           <li>Worked on implementing CDN-based caching for static files used in tax-form printing and calculations, improving asset delivery performance and reducing backend server load.</li>
           <li>Collaborated with DevOps to manage GCP deployments, leveraging Kibana for real-time log monitoring, production troubleshooting, and proactive issue resolution.</li>
           <li>Partnered with product and design teams to translate requirements into polished UI/UX using Figma and modern frontend frameworks.</li>
-          <li>Established and enforced coding standards, led peer code reviews, and integrated automated testing to improve code quality, reliability, and development efficiency.</li>
+          <li>Established and enforced coding standards, led peer code reviews, and integrated automated testing with Vitest and Jest into the CI/CD pipeline to improve code quality, reliability, and development efficiency.</li>
         </ul>
       </div>
 
