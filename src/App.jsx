@@ -562,9 +562,9 @@ const markup = `
         <ul class="tl-bullets">
           <li>Led a cross-functional team of 6+ engineers throughout the SDLC, driving Agile practices, code reviews, technical collaboration, and quality-focused release processes to deliver reliable software.</li>
           <li>Led the end-to-end development of a high-revenue Bank-as-a-Service (BaaS) module, enabling EROs to provide direct financial services to taxpayers for secure tax refund disbursements, from frontend workflows through backend APIs and financial integrations.</li>
-          <li>Engineered an ERO enrollment pipeline using Angular, Node.js, and Couchbase, with Node.js background jobs for automated processing and secure document transmission to banking partners.</li>
+          <li>Engineered an ERO enrollment pipeline using React, Node.js, and Couchbase, with Node.js background jobs for automated processing and secure document transmission to banking partners.</li>
           <li>Implemented an event-driven architecture using Kafka for the banking module, enabling asynchronous communication with third-party financial APIs and processing responses reliably while decoupling services and improving system resilience.</li>
-          <li>Spearheaded the complete rewrite of the enterprise e-file module using Angular and Node.js, engineering a dynamic workflow that enabled users to selectively transmit specific IRS and state tax forms through secure backend APIs.</li>
+          <li>Spearheaded the complete rewrite of the enterprise e-file module using React and Node.js, engineering a dynamic workflow that enabled users to selectively transmit specific IRS and state tax forms through secure backend APIs.</li>
           <li>Developed a white-label Service Bureau portal using React and Node.js, enabling businesses to create master accounts, provision and manage child customers, and customize branding with their company name and logo.</li>
           <li>Provided production support throughout the tax season, troubleshooting and resolving customer-reported issues and support tickets to ensure reliable system operations and minimize disruptions.</li>
           <li>Integrated IBM Watson AI into the Solution Center to deliver accurate tax article recommendations, reducing customer tickets by 70%.</li>
