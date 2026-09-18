@@ -558,7 +558,7 @@ const markup = `
           <span class="tl-role">Lead Software Developer</span>
           <span class="tl-period">Jun 2021 - Aug 2024</span>
         </div>
-        <div class="tl-company">Inventyv Software Services - Client: Advanced Tax Solutions LLC (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
+        <div class="tl-company">Inventyv Software Services </div>
         <ul class="tl-bullets">
           <li>Led a cross-functional team of 6+ engineers throughout the SDLC, driving Agile practices, code reviews, technical collaboration, and quality-focused release processes to deliver reliable software.</li>
           <li>Led the end-to-end development of a high-revenue Bank-as-a-Service (BaaS) module, enabling EROs to provide direct financial services to taxpayers for secure tax refund disbursements, from frontend workflows through backend APIs and financial integrations.</li>
@@ -576,7 +576,7 @@ const markup = `
           <span class="tl-role">Senior Software Developer</span>
           <span class="tl-period">Jun 2018 - May 2021</span>
         </div>
-        <div class="tl-company">Inventyv Software Services - (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
+        <div class="tl-company">Inventyv Software Services </div>
         <ul class="tl-bullets">
           <li>Engineered a secure taxpayer client portal using React and Node.js, enabling seamless document uploads to EROs; streamlined RESTful API intake workflows and improved frontend performance through Zustand state management, lazy loading, and code splitting.</li>
           <li>Developed healthcare application to capture and record physical machine readings, delivering personalized data views for members; implemented i18n support for multi-language accessibility.</li>
@@ -596,7 +596,7 @@ const markup = `
           <span class="tl-role">Software Developer</span>
           <span class="tl-period">May 2016 - May 2018</span>
         </div>
-        <div class="tl-company">I-Link Infosoft Services - (<a href="https://app.mytaxprepoffice.com/" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">MyTaxPrepOffice ↗</a>)</div>
+        <div class="tl-company">I-Link Infosoft Services </div>
         <ul class="tl-bullets">
           <li>Designed and developed scalable CRM features using Node.js and React, streamlining customer support workflows and improving the management of customer data.</li>
           <li>Worked on a custom Electron Desktop Printing Tool using Angular 2, jCanvas, and Spring Boot APIs to dynamically map taxpayer data to SVG-based form elements and automate the generation and printing of IRS and state tax forms.</li>
